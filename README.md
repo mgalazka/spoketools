@@ -9,6 +9,8 @@ This is a set of tools to help manage AutoVPN spokes in a Meraki environment. Cu
 
 **tag-networks-aio.py** - This script has similar functionality, but it is written using the Meraki Dashboard API python module, in concert with asyncio. This allows the script to complete much more quickly than the _tag_networks.py_ version. 
 
+**query-uplinks.py** - Quick proof of concept script to check for high upload usage for all networks in an org for the last 5-minute window. In the event that a network uplink hits the data threshold for the 5-min window, 60-sec resolution grabs over that 5-min period will then be run. This script is super rough around the edges, but proves as a proof of concept on the idea.
+
 ## Usage Requirements ##
 These scripts require that the following environment variables are set:
 
