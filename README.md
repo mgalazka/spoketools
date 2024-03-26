@@ -1,6 +1,6 @@
 # spoketools
 
-## Merak AutoVPN Spoke Tools
+## Meraki AutoVPN Spoke Tools
 This is a set of tools to help manage AutoVPN spokes in a Meraki environment. Note that all of these scripts are considered proof of concept scripts and may not contain much error handling or checking. Please exercise caution when using them.
 
 ## Scripts
